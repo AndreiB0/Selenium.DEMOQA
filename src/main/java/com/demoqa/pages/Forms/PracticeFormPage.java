@@ -6,18 +6,17 @@ import static Utilities.JavaScriptUtility.clickJS;
 import static Utilities.JavaScriptUtility.scrollToElementJS;
 
 public class PracticeFormPage extends FormsPage{
-
-    //////Radio Buttons in Practice Form/////
+    //////Find Radio Buttons in Practice Form
     private By maleRadioButton = By.id("gender-radio-1");
     private By femaleRadioButton = By.id("gender-radio-2");
     private By otherRadioButton = By.id("gender-radio-3");
 
-    /////Checkbox in Practice Form/////
+    /////Checkbox in Practice Form
     private By sportsCheckbox = By.id("hobbies-checkbox-1");
     private By readingCheckbox = By.id("hobbies-checkbox-2");
     private By musicCheckbox = By.id("hobbies-checkbox-3");
 
-    //////Methods for Radio buttons/////
+    //////Methods for Radio buttons
     //Click and verify Male radio button
     public void clickMaleRadioButton(){
         scrollToElementJS(maleRadioButton);
@@ -45,7 +44,7 @@ public class PracticeFormPage extends FormsPage{
         return find(otherRadioButton).isSelected();
     }
 
-    //////Methods for Checkboxes////
+    //////Methods for Checkboxes
     //Click and verify Sports checkbox
     public void clickSportsCheckbox(){
         if(!find(sportsCheckbox).isSelected()){

@@ -6,8 +6,7 @@ import static Utilities.JavaScriptUtility.clickJS;
 import static Utilities.JavaScriptUtility.scrollToElementJS;
 
 public class RadioButtonPage extends ElementsPage{
-
-    /////Find radio button elements
+    /////Find radio button elements in Radio Button page
     private By yesRadioButton = By.id("yesRadio");
     private By impressiveRadioButton = By.id("impressiveRadio");
     private By noRadioButton = By.id("noRadio");

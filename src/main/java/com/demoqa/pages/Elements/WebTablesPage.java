@@ -3,7 +3,7 @@ package com.demoqa.pages.Elements;
 import org.openqa.selenium.By;
 
 public class WebTablesPage extends ElementsPage{
-    //Registration fields in the edit form
+    /////Find Regisration fields in Web Tables page
     private By registrationFirstNameField = By.id("firstName");
     private By registrationLastNameField = By.id("lastName");
     private By registrationAgeField = By.id("age");

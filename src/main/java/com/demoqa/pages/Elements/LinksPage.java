@@ -5,13 +5,13 @@ import org.openqa.selenium.By;
 import static Utilities.JavaScriptUtility.scrollToElementJS;
 
 public class LinksPage extends ElementsPage{
-    /////Get links from page/////
+    /////Find Links for each page in Links  page
     private By createdLink = By.id("created");
     private By noContentLink = By.id("no-content");
     private By movedLink = By.id("moved");
     private By badRequestLink = By.id("bad-request");
 
-    /////Get Response after clicking a link/////
+    /////Get Response after clicking a link
     private By repsonse = By.id("linkResponse");
 
     //Click Created link

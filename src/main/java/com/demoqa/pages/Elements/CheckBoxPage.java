@@ -12,6 +12,7 @@ public class CheckBoxPage extends ElementsPage{
     //Result message
     private By displayResult = By.id("result");
 
+    //Click Check box and get message
     public void clickHomeCheckbox(){
         scrollToElementJS(homeCheckBox);
         clickJS(homeCheckBox);
