@@ -1,9 +1,5 @@
 package com.demoqa.pages.BookStoreApplication;
 
-import com.demoqa.pages.Elements.CheckBoxPage;
-import com.demoqa.pages.Elements.RadioButtonPage;
-import com.demoqa.pages.Elements.TextBoxPage;
-import com.demoqa.pages.Elements.WebTablesPage;
 import org.openqa.selenium.By;
 
 import static Utilities.JavaScriptUtility.scrollToElementJS;

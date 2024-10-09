@@ -1,6 +1,5 @@
 package com.demoqa.pages.Interactions;
 
-import com.demoqa.pages.Elements.TextBoxPage;
 import org.openqa.selenium.By;
 
 import static Utilities.JavaScriptUtility.scrollToElementJS;
