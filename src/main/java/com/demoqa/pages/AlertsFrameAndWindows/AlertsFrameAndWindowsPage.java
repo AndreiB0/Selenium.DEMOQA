@@ -10,8 +10,8 @@ public class AlertsFrameAndWindowsPage extends com.demoqa.pages.Home.HomePage {
     private By browserWindowsMenuItem = By.xpath("//li[@id='item-0']/span[text()='Browser Windows']");
     private By alertsMenuItem = By.xpath("//li[@id='item-1']/span[text()='Alerts']");
     private By framesMenuItem = By.xpath("//li[@id='item-2']/span[text()='Frames']");
-    private By nestedFramesMenuItem = By.xpath("//li[@id='item-0']/span[text()='Nested Frames']");
-    private By modalDialogsMenuItem = By.xpath("//li[@id='item-0']/span[text()='Modal Dialogs']");
+    private By nestedFramesMenuItem = By.xpath("//li[@id='item-3']/span[text()='Nested Frames']");
+    private By modalDialogsMenuItem = By.xpath("//li[@id='item-4']/span[text()='Modal Dialogs']");
 
     //Go to Browser Windows submenu
     public BrowserWindowsPage clickBrowserWindows(){

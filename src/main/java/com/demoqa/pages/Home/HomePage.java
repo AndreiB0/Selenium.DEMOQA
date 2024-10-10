@@ -35,7 +35,7 @@ public class HomePage extends BasePage {
     }
 
     //Go to Alerts,Frames & Windows page
-    public AlertsFrameAndWindowsPage goToAlertsFrameAndWindowsPage(){
+    public AlertsFrameAndWindowsPage goToAlertsFrameAndWindows(){
         scrollToElementJS(alertsFrameAndWindowsCard);
         click(alertsFrameAndWindowsCard);
         return new AlertsFrameAndWindowsPage();
@@ -61,9 +61,4 @@ public class HomePage extends BasePage {
         click(bookStoreApplicationCard);
         return new BookStoreApplicationPage();
     }
-
-
-
-
-
 }

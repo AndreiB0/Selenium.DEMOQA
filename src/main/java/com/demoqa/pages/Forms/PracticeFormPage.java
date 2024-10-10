@@ -16,6 +16,9 @@ public class PracticeFormPage extends FormsPage{
     private By readingCheckbox = By.id("hobbies-checkbox-2");
     private By musicCheckbox = By.id("hobbies-checkbox-3");
 
+    /////Submit button in Practice Form
+    private By submitButton = By.id("submit");
+
     //////Methods for Radio buttons
     //Click and verify Male radio button
     public void clickMaleRadioButton(){
@@ -100,6 +103,11 @@ public class PracticeFormPage extends FormsPage{
     }
     public boolean isReadingSelected(){
         return find(readingCheckbox).isSelected();
+    }
+
+    //Click Submit button
+    public void clickSubmitButton(){
+        click(submitButton);
     }
 
 }
