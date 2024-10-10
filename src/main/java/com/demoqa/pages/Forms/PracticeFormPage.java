@@ -6,6 +6,13 @@ import static Utilities.JavaScriptUtility.clickJS;
 import static Utilities.JavaScriptUtility.scrollToElementJS;
 
 public class PracticeFormPage extends FormsPage{
+    ///Find First name and Last name in Practice Form
+    private By firstNameField = By.id("firstName");
+    private By lastNameField = By.id("lastName");
+
+    //Find Email in Practice Form
+    private By emailField = By.id("userEmail");
+
     //////Find Radio Buttons in Practice Form
     private By maleRadioButton = By.id("gender-radio-1");
     private By femaleRadioButton = By.id("gender-radio-2");
@@ -18,6 +25,37 @@ public class PracticeFormPage extends FormsPage{
 
     /////Submit button in Practice Form
     private By submitButton = By.id("submit");
+
+    //Add First name and Last name and verify
+    public void addFirstName(String firstName){
+        scrollToElementJS(firstNameField);
+        click(firstNameField);
+        set(firstNameField, firstName);
+    }
+    public String getFirstName(){
+        return find(firstNameField).getText();
+    }
+
+    public void addLastName(String lastName){
+        scrollToElementJS(lastNameField);
+        click(lastNameField);
+        set(lastNameField, lastName);
+    }
+    public String getLastName(){
+        return find(lastNameField).getText();
+    }
+
+    //Add Email and verify
+    public void addEmail(String email){
+        scrollToElementJS(emailField);
+        click(emailField);
+        set(emailField, email);
+    }
+
+    public String getEmail(){
+        return find(emailField).getText();
+    }
+
 
     //////Methods for Radio buttons
     //Click and verify Male radio button
@@ -108,6 +146,7 @@ public class PracticeFormPage extends FormsPage{
     //Click Submit button
     public void clickSubmitButton(){
         click(submitButton);
+        delay(1000);
     }
 
 }
