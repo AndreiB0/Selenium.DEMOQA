@@ -21,10 +21,10 @@ public class AlertsFrameAndWindowsPage extends com.demoqa.pages.Home.HomePage {
     }
 
     //Go to Alerts submenu
-    public AlertsFrameAndWindowsPage clickAlerts(){
+    public AlertsPage clickAlerts(){
         scrollToElementJS(alertsMenuItem);
         click(alertsMenuItem);
-        return new AlertsFrameAndWindowsPage();
+        return new AlertsPage();
     }
 
     //Go to Frames submenu
