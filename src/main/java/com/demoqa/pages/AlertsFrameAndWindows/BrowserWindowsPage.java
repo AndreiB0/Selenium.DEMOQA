@@ -18,11 +18,11 @@ public class BrowserWindowsPage extends AlertsFrameAndWindowsPage {
 
     public void switchToNewWindow() {
         // Step 1: Get The Current "Main" Window Handle
-        String currentHandle = driver.getWindowHandle();
+        String currentHandle = getWindowHandle();
         System.out.println("Main Window ID: " + currentHandle + "\n");
 
         // Step 2: Get All Window Handles
-        Set<String> allHandles = driver.getWindowHandles();
+        Set<String> allHandles = getWindowHandles();
         System.out.println("# of Open Windows: " + allHandles.size());
 
         // Step 3: Switch To The New Window Using The Window Handle
