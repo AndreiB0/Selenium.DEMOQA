@@ -5,8 +5,8 @@ import org.openqa.selenium.By;
 public class ModalDialogsPage extends AlertsFrameAndWindowsPage{
     /////Find modal buttons in Modal Dialogs page
     //Small modal
-    private By smallModalButton = By.id("showSmallModal");
-    private By smallModalText = By.xpath("//div[contains(text(),'small modal')]");
+    private By smallModalButton      = By.id("showSmallModal");
+    private By smallModalText        = By.xpath("//div[contains(text(),'small modal')]");
     private By closeSmallModalButton = By.id("closeSmallModal");
 
     //Large modal

@@ -4,12 +4,12 @@ import org.openqa.selenium.By;
 
 public class AlertsPage extends AlertsFrameAndWindowsPage{
     /////Find Buttons in Alerts page
-    private By alertButton = By.id("alertButton");
-    private By timerAlertButton = By.id("timerAlertButton");
+    private By alertButton             = By.id("alertButton");
+    private By timerAlertButton        = By.id("timerAlertButton");
     private By confirmationAlertButton = By.id("confirmButton");
-    private By confirmationResult = By.id("confirmResult");
-    private By promptAlertButton = By.id("promtButton");
-    private By promptResult = By.id("promptResult");
+    private By confirmationResult      = By.id("confirmResult");
+    private By promptAlertButton       = By.id("promtButton");
+    private By promptResult            = By.id("promptResult");
 
     //Click Alert Button
     public void clickAlertButton() {

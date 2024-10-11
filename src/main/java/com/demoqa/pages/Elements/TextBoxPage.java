@@ -8,16 +8,16 @@ import static dev.failsafe.internal.util.Assert.*;
 
 public class TextBoxPage extends ElementsPage{
     /////Text Box fields in Text Box page
-    private By fullNameField = By.id("userName");
-    private By emailField = By.id("userEmail");
-    private By currentAddressField = By.id("currentAddress");
-    private By permanentAddressField = By.id("permanentAddress");
-    private By submitButton = By.id("submit");
+    private By fullNameField           = By.id("userName");
+    private By emailField              = By.id("userEmail");
+    private By currentAddressField     = By.id("currentAddress");
+    private By permanentAddressField   = By.id("permanentAddress");
+    private By submitButton            = By.id("submit");
 
     /////Text Box values after pressing Submit
-    private By enteredFullName = By.id("name");
-    private By enteredEmail = By.id("email");
-    private By enteredCurrentAddress = By.xpath("//p[@id='currentAddress' and @class='mb-1']");
+    private By enteredFullName         = By.id("name");
+    private By enteredEmail            = By.id("email");
+    private By enteredCurrentAddress   = By.xpath("//p[@id='currentAddress' and @class='mb-1']");
     private By enteredPermanentAddress = By.xpath("//p[@id='permanentAddress' and @class='mb-1']");
 
 

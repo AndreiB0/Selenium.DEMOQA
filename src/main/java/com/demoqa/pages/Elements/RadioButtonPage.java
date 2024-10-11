@@ -7,9 +7,9 @@ import static com.Utilities.JavaScriptUtility.scrollToElementJS;
 
 public class RadioButtonPage extends ElementsPage{
     /////Find radio button elements in Radio Button page
-    private By yesRadioButton = By.id("yesRadio");
+    private By yesRadioButton        = By.id("yesRadio");
     private By impressiveRadioButton = By.id("impressiveRadio");
-    private By noRadioButton = By.id("noRadio");
+    private By noRadioButton         = By.id("noRadio");
 
     //Click and verify Yes radio button
     public void clickYesRadioButton(){

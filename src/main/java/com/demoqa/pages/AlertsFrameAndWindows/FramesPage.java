@@ -8,8 +8,8 @@ public class FramesPage extends AlertsFrameAndWindowsPage{
 
     private By headerFramesText = By.xpath("//div[@id='app']//h1[text()='Frames']");
     private String iFrameBigBox = "frame1";
-    private By iFrameSmallBox = By.xpath("//div[@id='frame2Wrapper']/iframe");
-    private By textInFrame = By.id("sampleHeading");
+    private By iFrameSmallBox   = By.xpath("//div[@id='frame2Wrapper']/iframe");
+    private By textInFrame      = By.id("sampleHeading");
 
     public String getHeaderFramesText(){
         return find(headerFramesText).getText();

@@ -5,11 +5,10 @@ import org.openqa.selenium.By;
 public class WebTablesPage extends ElementsPage{
     /////Find Regisration fields in Web Tables page
     private By registrationFirstNameField = By.id("firstName");
-    private By registrationLastNameField = By.id("lastName");
-    private By registrationAgeField = By.id("age");
-
+    private By registrationLastNameField  = By.id("lastName");
+    private By registrationAgeField       = By.id("age");
     //Submit button in the registration form
-    private By submitButton = By.id("submit");
+    private By submitButton               = By.id("submit");
 
     //Find element in Web Table by Email and click edit
     public void clickEdit(String email){

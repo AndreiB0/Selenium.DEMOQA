@@ -6,10 +6,8 @@ import static com.Utilities.JavaScriptUtility.clickJS;
 import static com.Utilities.JavaScriptUtility.scrollToElementJS;
 
 public class CheckBoxPage extends ElementsPage{
-    //Check box field
-    private By homeCheckBox = By.id("tree-node-home");
-
-    //Result message
+    //Check box fields
+    private By homeCheckBox  = By.id("tree-node-home");
     private By displayResult = By.id("result");
 
     //Click Check box and get message

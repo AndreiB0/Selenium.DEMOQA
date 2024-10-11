@@ -7,24 +7,20 @@ import static com.Utilities.JavaScriptUtility.scrollToElementJS;
 
 public class PracticeFormPage extends FormsPage{
     ///Find First name and Last name in Practice Form
-    private By firstNameField = By.id("firstName");
-    private By lastNameField = By.id("lastName");
-
+    private By firstNameField       = By.id("firstName");
+    private By lastNameField        = By.id("lastName");
     //Find Email in Practice Form
-    private By emailField = By.id("userEmail");
-
+    private By emailField           = By.id("userEmail");
     //////Find Radio Buttons in Practice Form
-    private By maleRadioButton = By.id("gender-radio-1");
-    private By femaleRadioButton = By.id("gender-radio-2");
-    private By otherRadioButton = By.id("gender-radio-3");
-
+    private By maleRadioButton      = By.id("gender-radio-1");
+    private By femaleRadioButton    = By.id("gender-radio-2");
+    private By otherRadioButton     = By.id("gender-radio-3");
     /////Checkbox in Practice Form
-    private By sportsCheckbox = By.id("hobbies-checkbox-1");
-    private By readingCheckbox = By.id("hobbies-checkbox-2");
-    private By musicCheckbox = By.id("hobbies-checkbox-3");
-
+    private By sportsCheckbox       = By.id("hobbies-checkbox-1");
+    private By readingCheckbox      = By.id("hobbies-checkbox-2");
+    private By musicCheckbox        = By.id("hobbies-checkbox-3");
     /////Submit button in Practice Form
-    private By submitButton = By.id("submit");
+    private By submitButton         = By.id("submit");
 
     //Add First name and Last name and verify
     public void addFirstName(String firstName){
