@@ -3,8 +3,8 @@ package com.demoqa.pages.Widgets;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 
-import static Utilities.DropDownUtility.*;
-import static Utilities.JavaScriptUtility.*;
+import static com.Utilities.DropDownUtility.*;
+import static com.Utilities.JavaScriptUtility.*;
 
 import java.util.List;
 

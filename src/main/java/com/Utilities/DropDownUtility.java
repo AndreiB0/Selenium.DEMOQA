@@ -1,4 +1,4 @@
-package Utilities;
+package com.Utilities;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.Select;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class DropDownUtility extends Utilities.Utility {
+public class DropDownUtility extends Utility {
 
     private static Select findDropDown(By locator){
         return new Select(driver.findElement(locator));

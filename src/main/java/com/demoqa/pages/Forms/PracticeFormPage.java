@@ -2,8 +2,8 @@ package com.demoqa.pages.Forms;
 
 import org.openqa.selenium.By;
 
-import static Utilities.JavaScriptUtility.clickJS;
-import static Utilities.JavaScriptUtility.scrollToElementJS;
+import static com.Utilities.JavaScriptUtility.clickJS;
+import static com.Utilities.JavaScriptUtility.scrollToElementJS;
 
 public class PracticeFormPage extends FormsPage{
     ///Find First name and Last name in Practice Form

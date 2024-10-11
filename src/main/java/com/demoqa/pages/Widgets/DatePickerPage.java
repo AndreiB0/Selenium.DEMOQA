@@ -2,7 +2,7 @@ package com.demoqa.pages.Widgets;
 
 import org.openqa.selenium.By;
 
-import static Utilities.DropDownUtility.selectByVisibleText;
+import static com.Utilities.DropDownUtility.selectByVisibleText;
 
 public class DatePickerPage extends WidgetsPage{
     //Select date field

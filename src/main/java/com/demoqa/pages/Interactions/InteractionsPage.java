@@ -2,7 +2,7 @@ package com.demoqa.pages.Interactions;
 
 import org.openqa.selenium.By;
 
-import static Utilities.JavaScriptUtility.scrollToElementJS;
+import static com.Utilities.JavaScriptUtility.scrollToElementJS;
 
 public class InteractionsPage extends com.demoqa.pages.Home.HomePage {
     /////Find submenus for each page in Interactions page

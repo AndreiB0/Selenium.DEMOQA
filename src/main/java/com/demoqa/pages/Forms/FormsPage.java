@@ -3,7 +3,7 @@ package com.demoqa.pages.Forms;
 import com.demoqa.pages.Home.HomePage;
 import org.openqa.selenium.By;
 
-import static Utilities.JavaScriptUtility.scrollToElementJS;
+import static com.Utilities.JavaScriptUtility.scrollToElementJS;
 
 public class FormsPage extends HomePage {
     /////Find web elements in the left pane in Forms module

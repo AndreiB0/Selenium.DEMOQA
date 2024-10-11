@@ -2,8 +2,8 @@ package com.demoqa.pages.Elements;
 
 import org.openqa.selenium.By;
 
-import static Utilities.JavaScriptUtility.clickJS;
-import static Utilities.JavaScriptUtility.scrollToElementJS;
+import static com.Utilities.JavaScriptUtility.clickJS;
+import static com.Utilities.JavaScriptUtility.scrollToElementJS;
 
 public class CheckBoxPage extends ElementsPage{
     //Check box field

@@ -9,7 +9,7 @@ import com.demoqa.pages.Interactions.InteractionsPage;
 import com.demoqa.pages.Widgets.WidgetsPage;
 import org.openqa.selenium.By;
 
-import static Utilities.JavaScriptUtility.scrollToElementJS;
+import static com.Utilities.JavaScriptUtility.scrollToElementJS;
 
 public class HomePage extends BasePage {
     /////Find cards for each page in Home page

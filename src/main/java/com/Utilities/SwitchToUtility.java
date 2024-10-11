@@ -2,7 +2,7 @@ package com.Utilities;
 
 import org.openqa.selenium.WebDriver;
 
-public class SwitchToUtility extends Utilities.Utility {
+public class SwitchToUtility extends Utility {
 
     private static WebDriver.TargetLocator switchTo(){
         return driver.switchTo();

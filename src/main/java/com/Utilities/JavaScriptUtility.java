@@ -1,10 +1,10 @@
-package Utilities;
+package com.Utilities;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 
-public class JavaScriptUtility extends Utilities.Utility {
+public class JavaScriptUtility extends Utility {
 
     public static void scrollToElementJS(By locator){
         WebElement element = driver.findElement(locator);

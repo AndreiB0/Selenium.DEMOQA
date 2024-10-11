@@ -3,7 +3,7 @@ package com.demoqa.pages.Widgets;
 import com.demoqa.pages.Home.HomePage;
 import org.openqa.selenium.By;
 
-import static Utilities.JavaScriptUtility.scrollToElementJS;
+import static com.Utilities.JavaScriptUtility.scrollToElementJS;
 
 public class WidgetsPage extends HomePage {
     /////Find submenus for each page in Widgets page

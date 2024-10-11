@@ -17,7 +17,8 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.time.LocalDate;
 
-import static Utilities.Utility.setUtilityDriver;
+import static com.Utilities.Utility.setUtilityDriver;
+
 
 public class BaseTest {
     private WebDriver driver;

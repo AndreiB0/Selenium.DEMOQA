@@ -2,7 +2,7 @@ package com.demoqa.pages.Elements;
 
 import org.openqa.selenium.By;
 
-import static Utilities.JavaScriptUtility.scrollToElementJS;
+import static com.Utilities.JavaScriptUtility.scrollToElementJS;
 
 public class LinksPage extends ElementsPage{
     /////Find Links for each page in Links  page

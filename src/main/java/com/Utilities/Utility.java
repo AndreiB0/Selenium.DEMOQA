@@ -1,4 +1,4 @@
-package Utilities;
+package com.Utilities;
 
 import com.Base.BasePage;
 import org.openqa.selenium.WebDriver;
