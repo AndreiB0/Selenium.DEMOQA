@@ -13,9 +13,9 @@ public class ElementsPage extends HomePage {
     private By webTablesMenuItem         = By.xpath("//li[@id='item-3']/span[text()='Web Tables']");
     private By buttonsMenuItem           = By.xpath("//li[@id='item-4']/span[text()='Buttons']");
     private By linksMenuItem             = By.xpath("//li[@id='item-5']/span[text()='Links']");
-    private By brokenLinksImagesMenuItem = By.xpath("//li[@id='item-5']/span[text()='Broken Links - Images']");
-    private By uploadAndDownloadMenuItem = By.xpath("//li[@id='item-5']/span[text()='Upload and Download']");
-    private By dynamicPropertiesMenuItem = By.xpath("//li[@id='item-5']/span[text()='Dynamic Properties']");
+    private By brokenLinksImagesMenuItem = By.xpath("//li[@id='item-6']/span[text()='Broken Links - Images']");
+    private By uploadAndDownloadMenuItem = By.xpath("//li[@id='item-7']/span[text()='Upload and Download']");
+    private By dynamicPropertiesMenuItem = By.xpath("//li[@id='item-8']/span[text()='Dynamic Properties']");
 
     //Go to Text Box submenu
     public TextBoxPage clickTextBox(){
