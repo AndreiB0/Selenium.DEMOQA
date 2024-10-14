@@ -20,6 +20,4 @@ public class ProgressBarPage extends WidgetsPage{
         fluentWaitUntilVisible(30, progressValue);
         return getText(progressValue);
     }
-
-
 }
